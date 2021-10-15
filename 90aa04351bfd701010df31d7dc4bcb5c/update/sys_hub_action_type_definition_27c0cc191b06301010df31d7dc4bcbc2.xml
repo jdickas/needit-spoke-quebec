@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>test_script_include_can_be_used</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test Script Include can be used</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 06:53:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27c0cc191b06301010df31d7dc4bcbc2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test Script Include can be used</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt Spoke" source="x_653072_needit_sp">90aa04351bfd701010df31d7dc4bcb5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">90aa04351bfd701010df31d7dc4bcb5c</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_27c0cc191b06301010df31d7dc4bcbc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 06:59:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=27c0cc191b06301010df31d7dc4bcbc2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=27c0cc191b06301010df31d7dc4bcbc2"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=27c0cc191b06301010df31d7dc4bcbc2^sys_idNOT INce2284511b46301010df31d7dc4bcb38"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Test Script Include can be used">27c0cc191b06301010df31d7dc4bcbc2</action>
+        <cid>71b4f2e5-00af-4f0b-bd79-7e66ce8effc2</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 06:59:19</sys_created_on>
+        <sys_id>ce2284511b46301010df31d7dc4bcb38</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt Spoke">90aa04351bfd701010df31d7dc4bcb5c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 06:59:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce2284511b46301010df31d7dc4bcb38"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2284511b46301010df31d7dc4bcb38</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 06:59:19</sys_created_on>
+        <sys_id>4622c4911b46301010df31d7dc4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 06:59:19</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+</record_update>
